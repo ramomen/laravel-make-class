@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Services\Interfaces;
+
+/**
+ * Interface {{ class }}Interface
+ * @package App\Tools\Interfaces
+ */
+interface {{ class }}Interface
+{
+
+}

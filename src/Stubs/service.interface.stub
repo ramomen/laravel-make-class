@@ -1,0 +1,14 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespace }}\Interfaces\{{ class }}Interface;
+
+/**
+ * Class {{ class }}
+ * @package App\Classes
+ */
+class {{ class }} implements {{ class }}Interface
+{
+
+}

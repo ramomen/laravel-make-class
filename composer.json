@@ -1,0 +1,42 @@
+{
+    "name": "ramomen/laravel-make-class",
+    "description": "php artisan make class for Laravel 5+",
+    "keywords": [
+        "laravel",
+        "mvcs",
+        "class",
+        "make:class",
+        "laravel class",
+        "contract",
+        "pattern"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.1|^8.0",
+        "illuminate/support": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/console": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ramomen",
+            "email": "heyyo@ramomen.co"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ramomen\\LaravelMakeClass\\LaravelMakeClassProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ramomen\\LaravelMakeClass\\": "src/"
+        },
+        "classmap": ["src/"]
+    }
+}
