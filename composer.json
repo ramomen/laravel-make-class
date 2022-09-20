@@ -5,7 +5,6 @@
         "laravel",
         "mvcs",
         "class",
-        "make:class",
         "laravel class",
         "contract",
         "pattern"
