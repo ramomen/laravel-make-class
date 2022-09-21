@@ -44,7 +44,7 @@ namespace App\Classes;
  * Class UpperCamelClass
  * @package App\Classes
  */
-class UserClasses
+class UserClass
 {
 
 }
